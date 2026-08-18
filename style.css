@@ -11,8 +11,9 @@
   --surface-2:     #1B242D;
   --border:        #263140;
   --text:          #E7EDF3;
-  --text-muted:    #8B98A5;
+  --text-muted:    #9FACB9;
   --text-faint:    #5B6673;
+  --text-secondary:#AAB6C2;
 
   --mint:          #5EEAD4;
   --mint-dim:      rgba(94, 234, 212, 0.14);
@@ -226,9 +227,10 @@ button{ font-family: inherit; cursor: pointer; background: none; border: none; c
 .hero-cta{ display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
 .hero-meta{
   display: flex; align-items: center; gap: 10px;
-  color: var(--text-faint); font-size: 0.85rem;
+  color: var(--text-secondary); font-size: 0.85rem;
 }
 .dot{ color: var(--text-faint); }
+.meta-strong{ color: var(--text); font-weight: 700; }
 
 /* buttons */
 .btn{
@@ -499,7 +501,7 @@ html[dir="rtl"] .check-list li::before{ left: auto; right: 0; }
    CONTACT
    ========================================================= */
 .contact-actions{ display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; }
-.contact-meta{ color: var(--text-faint); font-size: 0.88rem; display: flex; justify-content: center; gap: 10px; }
+.contact-meta{ color: var(--text-secondary); font-size: 0.88rem; display: flex; justify-content: center; gap: 10px; }
 
 /* =========================================================
    FOOTER
